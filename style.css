@@ -1,0 +1,87 @@
+/*GENERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.prix{
+    color: red;
+}
+p{
+    font-size: 16PX;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Crete Round', serif;
+    color: #444;
+    font-size: 45px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper{
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.orange{
+    color: orange;
+}
+
+/*HEADER*/
+
+header{
+    height: 120px;
+}
+header h1{
+    float: left;
+    margin-top: 50PX;
+}
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.Col-Gauche{
+    padding:0 0 0 0px;
+    font-weight:700; 
+    text-align:center;
+  }
+.Col-Centre{
+    padding:0 0 0 0px;
+    font-weight:700;
+    text-align:center;
+  }
+.Col-Droiite{
+   padding:0 0 0 0px;
+   font-weight:700;
+   text-align:center;
+  }
+
+/*MAIN IMAGE*/
+#main-image{
+    height: 200 px;
+    background: url('images/stones.jpg') center;
+    margin: 20px;
+}
+#main-image h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 150PX 0 40px 0px;
+    margin-bottom: 20px;
+    color: azure;
+}
