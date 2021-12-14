@@ -1,87 +1,297 @@
 /*GENERAL*/
 
+
+
 *{
+
     margin: 0;
+
     padding: 0;
+
 }
+
 .prix{
+
     color: red;
+
 }
+
 p{
+
     font-size: 16PX;
+
 }
+
 body{
+
     font-family: Arial, sans-serif;
+
     font-size: 20px;
+
 }
+
 h1{
+
     font-family: 'Crete Round', serif;
+
     color: #444;
+
     font-size: 45px;
+
 }
+
 ul{
+
     list-style: none;
+
 }
+
+
 a{
+
     text-decoration: none;
+
     color: #444;
+
 }
+
 .wrapper{
+
     width: 950px;
+
     margin: 0 auto;
+
     padding: 0 auto;
+    
+
 }
+
 .orange{
+
     color: orange;
+
 }
+
+
 
 /*HEADER*/
 
+
+
 header{
-    height: 120px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
 }
-header h1{
-    float: left;
-    margin-top: 50PX;
+
+header nav ul{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    
+
 }
-header nav{
-    float: right;
-    margin-top: 30px;
-}
+
 header nav ul li{
-    display: inline-block;
+
+    margin: 15px;
+
 }
+
 header nav ul li a{
+
     text-transform: uppercase;
+
     font-weight: bold;
-    margin-left: 15px;
+
 }
-.Col-Gauche{
-    padding:0 0 0 0px;
-    font-weight:700; 
-    text-align:center;
-  }
-.Col-Centre{
-    padding:0 0 0 0px;
-    font-weight:700;
-    text-align:center;
-  }
-.Col-Droiite{
-   padding:0 0 0 0px;
-   font-weight:700;
-   text-align:center;
-  }
+
+header nav ul li ul{
+
+    display: block;
+
+    visibility: hidden;
+
+    position: absolute;
+
+}
+
+header nav ul li:hover ul{
+
+    visibility: visible;
+
+}
+
+header nav ul li ul li a{
+    color: #000;
+
+    text-transform: none;
+
+    font-style: italic;
+} 
+
+
+
+
+
+
 
 /*MAIN IMAGE*/
+
+.card-img-top{
+
+    height: 300px;
+
+    width: 100%;
+
+}
+
 #main-image{
-    height: 200 px;
-    background: url('images/stones.jpg') center;
+
+    height: 150px;
+
+    background: url('images/stones.jpg');
+
     margin: 20px;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
 }
+
 #main-image h2{
+
     text-align: center;
+
     text-transform: uppercase;
-    padding: 150PX 0 40px 0px;
+
+    padding: 90PX 0 40px 0px;
+
     margin-bottom: 20px;
+
     color: azure;
+
 }
+
+/**************************************product card**************************/
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    max-width: 300px;
+
+    margin: 30px auto;
+
+    text-align: center;
+
+    font-family: arial;
+
+  }
+
+  
+
+  .prix {
+
+    color: red;
+
+    font-size: 22px;
+
+  }
+
+  
+
+  .card button {
+
+    border: none;
+
+    outline: 0;
+
+    padding: 12px;
+
+    color: white;
+
+    background-color: #000;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    font-size: 18px;
+
+  }
+
+  
+
+  .card button:hover {
+
+    opacity: 0.7;
+
+  }
+
+
+
+  .productGalery{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    padding: 10px;
+
+    justify-content:start;
+    
+
+  }
+
+  .item{
+
+      margin: 5px;
+
+  }
+
+  /*FOOTER*/
+
+footer{
+    height: 260px;
+
+    background-color: #444;
+
+}
+footer h1
+{
+    color: #fff;
+
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+.copyright
+{
+    text-align: center;
+
+    padding-top: 30px;
+
+    color: #fff;
+}
+
+
+
